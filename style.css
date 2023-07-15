@@ -1,0 +1,37 @@
+body{
+    margin:0%;
+    padding:0%;
+    background:linear-gradient(to right,#9cecfb,#65c7f7,#548ae0 ) ;
+
+}
+.container{
+  margin:100px auto;
+  text-align: center;
+}
+h1{
+    font-size: 4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:antiquewhite;
+}
+p{
+    font-size: 5rem;
+    color: #ffffff;
+}
+.time{
+    font-size: 2rem;
+}
+.button{
+    font-size: 1.5rem;
+    margin:20px 10px;
+    padding: 3px;
+    width:120px;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+.button:hover{
+    cursor: pointer;
+    background-color:#65c7f7 ;
+    color: white;
+    transition: 0.5s;
+    border:2px solid aliceblue;
+}
