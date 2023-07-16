@@ -9,7 +9,8 @@ var buttonStop=document.getElementById("stop");
 var buttonReset=document.getElementById("reset");
 var interval;
 buttonStart.addEventListener('click',()=>{
-    interval=setInterval(startTimer,10);
+    interval=setInterval(startTimer,10);//millisecond 10=0.01 second
+
 });
 buttonStop.addEventListener('click',()=>{
     clearInterval(interval);
